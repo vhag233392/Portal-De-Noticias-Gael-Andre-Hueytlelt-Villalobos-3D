@@ -1,0 +1,22 @@
+#noticias-style{
+    display: flex;
+    justify-content: space-around;
+   
+}
+
+#Titulo-Imagen-Style{
+
+display: flex;
+flex-direction: column;
+width: 30%;
+justify-content: center;
+align-items: center;
+}
+
+#Noticia-TextoDesc-Style{
+
+display: flex;
+flex-wrap: wrap;
+width: 45%;
+
+}

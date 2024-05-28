@@ -1,0 +1,20 @@
+#nodo-padre-noticia-semanal{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  height: 40%;
+    
+}
+
+#div-hijo1-noticia-semanal{
+    display: flex;
+    flex-direction: column;
+
+    width: 50%;
+}
+
+#div-hijo2-noticia-semanal{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}

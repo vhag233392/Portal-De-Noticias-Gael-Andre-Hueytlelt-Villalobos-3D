@@ -1,0 +1,7 @@
+#div-padre-DatosCuriosos{
+    background-color: rgb(255, 0, 179);
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    height: 55%;
+}
