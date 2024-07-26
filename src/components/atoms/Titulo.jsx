@@ -2,7 +2,7 @@ import './Titulo.css'
 function Titulo(props){
 
     return(
-        <h1>{props.titulo}</h1>
+        <h1 className='titulo'>{props.titulo}</h1>
     )
 }
 

@@ -6,22 +6,21 @@ import './Home.css'
 import Encabezado from '../components/organisms/Encabezado';
 
 function Home(){
-    return(<>
-        <Encabezado></Encabezado>
-        <div id='colorFondo'>
-            <br />
-        <NoticiaEstelar></NoticiaEstelar>
-        <br />
-        <NoticiaSemanal></NoticiaSemanal>
-        <br />
-        <DatosCuriosos></DatosCuriosos>
-        <br />
-       
-        <Footer></Footer>
-        </div>
-        
-    </>
-    )
-}
+        return (
+            <>
+            <Encabezado />
+            <div id="colorFondo">
+                <br />
+                <NoticiaEstelar />
+                <br />
+                <NoticiaSemanal />
+                <br />
+                <DatosCuriosos />
+                <br />
+                <Footer />
+            </div>
+            </>
+        )
+    }
 
 export default Home;

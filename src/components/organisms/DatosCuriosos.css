@@ -1,7 +1,31 @@
 #div-padre-DatosCuriosos{
     background-color: rgb(255, 0, 179);
     display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
     justify-content: center;
-    justify-content: space-around;
-    height: 55%;
+
+}
+
+.datos {
+    border: 1px solid #252525;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 300px; /* Ajusta este valor según el tamaño deseado */
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.datos img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.datos p {
+    margin: 10px 0 0 0;
+    font-size: 14px;
+    color: #333;
 }

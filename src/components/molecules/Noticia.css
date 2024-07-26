@@ -1,22 +1,50 @@
-#noticias-style{
+
+#noticias-style {
     display: flex;
-    justify-content: space-around;
-   
-}
+    flex-direction: column;
+    margin: 20px;
+    max-width: 800px; 
+    margin: 0 auto; 
+  }
+  
 
-#Titulo-Imagen-Style{
+  #Titulo-Imagen-Style {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
 
-display: flex;
-flex-direction: column;
-width: 30%;
-justify-content: center;
-align-items: center;
-}
+  #Titulo-Imagen-Style h1 {
+    font-size: 24px;
+    text-align: center;
+    margin: 0;
+  }
+  
 
-#Noticia-TextoDesc-Style{
+  #Titulo-Imagen-Style img {
+    max-width: 100%;
+    height: auto; 
+    margin: 10px 0;
+  }
+  
 
-display: flex;
-flex-wrap: wrap;
-width: 45%;
+  #Noticia-TextoDesc-Style {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
 
-}
+  #Noticia-TextoDesc-Style p {
+    font-size: 16px;
+    text-align: center;
+    margin: 10px 0;
+    max-width: 90%;
+  }
+  
+
+  #Noticia-TextoDesc-Style .like-button {
+    margin-top: 10px; 
+  }
+  

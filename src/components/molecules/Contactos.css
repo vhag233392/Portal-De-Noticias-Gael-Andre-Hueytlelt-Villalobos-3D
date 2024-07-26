@@ -1,16 +1,17 @@
-#Contactos{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    justify-items: center;
-    width: 100%;
-
+/* Contactos.css */
+#divPadre-Contactos {
+    text-align: center;
+    padding: 20px;
+    width: 100px;
 }
 
-#divPadre-Contactos{
+#Contactos {
     display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    color: greenyellow;
+    justify-content: center;
+    gap: 15px;
+}
+
+.icono img {
+    width: 20px;  /* Cambia el tamaño a 20px */
+    height: 20px; /* Cambia el tamaño a 20px */
 }

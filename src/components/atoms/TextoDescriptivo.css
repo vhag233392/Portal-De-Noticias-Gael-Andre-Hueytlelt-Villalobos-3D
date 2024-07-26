@@ -1,4 +1,4 @@
-#textoDesc-style{
+#textoDesc-style {
     width: 100%;
     height: 50%;
     display: flex;
@@ -6,7 +6,15 @@
     align-items: center;
 }
 
-p{
-    font-family: sans-serif;
-    color: yellow;
+p {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 20px;
+    letter-spacing: -1px;
+    word-spacing: 4.8px;
+    color: #FFFFFF;
+    font-weight: 700;
+    text-decoration: none solid rgb(68, 68, 68);
+    font-style: italic;
+    font-variant: small-caps;
+    text-transform: none;
 }
